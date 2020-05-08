@@ -1,13 +1,22 @@
 body {
     background-color: #fdfdfd;
     font-family: 'Muli', sans-serif;
+    font-size: 16px;
 }
 
 /* General styles */
 
 h1 {
-
+    font-weight: 400;
+    font-size: 3em;
 }
+
+h2 {
+    padding-top: 68px;
+    font-size: 2.4em;
+}
+
+
 
 
 /* Header */
@@ -21,6 +30,16 @@ h1 {
 
 .hero-text {
    color: #f9fcfb;
+   padding-top: 90px;
+   padding-left: 10px;
+}
+
+.hero-text p {
+    text-transform: uppercase;
+}
+
+.hero-text p span {
+    font-weight: 700;
 }
 
 #profileimage {
@@ -28,23 +47,36 @@ h1 {
     border: solid 3px #f9fcfb;
     border-radius: 50%;
     display: block;
-    margin: 0 auto;
     position: absolute;
-    top: 464px;
+    top: 435px;
     left: 150px;
     
+}
+
+/* About me section*/
+
+#about-me {
+   
 }
 
 
 @media (min-width: 760px) {
 
-  #profileimage {
-      left: 580px;
-  }
+    .hero-text {
+        padding-left: 65px;
+    }
+
+    #profileimage {
+        left: 580px;
+    }
 
 }
 
 @media (min-width: 1200px) {
+
+    .hero-text {
+        padding-left: 140px;
+    }
 
     #profileimage {
         left: 970px;
