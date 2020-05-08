@@ -5,6 +5,9 @@ body {
 
 /* General styles */
 
+h1 {
+
+}
 
 
 /* Header */
@@ -13,6 +16,7 @@ body {
     background: url('../images/heroimage.jpg') center no-repeat #bbbbbb;
     background-size: cover;
     min-height: 600px;
+    position: relative;
 }
 
 .hero-text {
@@ -21,8 +25,29 @@ body {
 
 #profileimage {
     width: 168px;
+    border: solid 3px #f9fcfb;
     border-radius: 50%;
     display: block;
     margin: 0 auto;
-    border: solid 3px #f9fcfb;
+    position: absolute;
+    top: 464px;
+    left: 150px;
+    
 }
+
+
+@media (min-width: 760px) {
+
+  #profileimage {
+      left: 580px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+    #profileimage {
+        left: 970px;
+    }
+  
+  }
