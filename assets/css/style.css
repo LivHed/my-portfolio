@@ -2,3 +2,20 @@ body {
     background-color: #fdfdfd;
     font-family: 'Muli', sans-serif;
 }
+
+/* General styles */
+
+
+
+/* Header */
+
+.hero-text {
+   text-align: left;
+}
+
+#profileimage {
+    width: 168px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
