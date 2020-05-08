@@ -65,19 +65,35 @@ h2 {
 footer {
     border-color: transparent;
     text-align: center;
+    background-color: #f8f9fa;
 }
 
 .footer-section {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
-a {
+footer a {
     padding: 4px 16px 4px 16px;
     background-color: transparent;
 }
 
-.alignment {
-    line-height: 12px;
+footer i {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 32px;
+    color: #8F8F8F;
+    margin-top: 0;
+    margin-bottom: 2.2px;
+    transition: color .3s;
+}
+
+footer i:hover {
+    color: #696464;
 }
 
 /*--------------- Media Queries -------------*/
