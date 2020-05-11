@@ -12,11 +12,13 @@ h1 {
 h2 {
     padding-top: 68px;
     font-size: 2.4em;
+    margin-bottom: 16px;
 }
 
 p {
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 1.2em;
 }
 
 /* Navbar */
@@ -67,6 +69,24 @@ p {
 /* About me section*/
 #about-me {
    
+}
+
+/* My skills section */
+.work-card {
+    margin-top: 16px;
+}
+
+.card-image {
+ /*   height: 18.5rem;  */
+    background-size: cover;
+    background-position: center center;
+    border-radius: 3px;
+    width: auto;
+    height: 180px;
+}
+
+.project-text {
+    font-size: 1.1em;
 }
 
 /* Footer */
