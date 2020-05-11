@@ -77,11 +77,12 @@ p {
 }
 
 .card-image {
-    background-size: cover;
+  /*  background-size: cover;  */
     background-position: center center;
     width: 100%;
     height: 180px;
     background-color: lightgrey;
+    object-fit: cover; /*enables zoom instead of stretching the image */
 }
 
 .project-text {
