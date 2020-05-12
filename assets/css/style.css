@@ -83,6 +83,7 @@ p {
     height: 180px;
     background-color: #ececec;
     object-fit: cover; /*enables zoom instead of stretching the image */
+    border-bottom: 1px solid #ececec;
 }
 
 .project-text {
