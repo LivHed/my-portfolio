@@ -104,6 +104,73 @@ p {
     color: #696464;
 }
 
+/*--------Learning history-------*/
+
+#my-skills {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #3f3f44;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 14px;
+    height: 14px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #222831;
+}
+
+.history-heading {
+    color: #3f3f44;
+    margin-bottom: 50px;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+.bg-learning-history {
+    background: url('../images/learning-history-background.jpg') center no-repeat #bbbbbb;
+    background-size: cover;
+    border-radius: 4px;
+    
+}
+
+.bg-my-skills {
+    background: url('../images/learning-history-background.jpg') center no-repeat #bbbbbb;
+    background-size: cover;
+    border-radius: 4px;
+    
+}
+
 
 /*------------ Footer --------------*/
 footer {
