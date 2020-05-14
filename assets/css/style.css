@@ -166,14 +166,14 @@ p {
 }
 
 .bg-learning-history {
-    background: url('../images/learning-history-background.jpg') center no-repeat #bbbbbb;
+    background: url('../images/learning-skills-bg.jpg') center no-repeat #bbbbbb;
     background-size: cover;
     border-radius: 4px;
     
 }
 
 .bg-my-skills {
-    background: url('../images/learning-history-background.jpg') center no-repeat #bbbbbb;
+    background: url('../images/learning-skills-bg.jpg') center no-repeat #bbbbbb;
     background-size: cover;
     border-radius: 4px;
     
