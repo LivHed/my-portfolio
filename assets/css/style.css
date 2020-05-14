@@ -168,15 +168,13 @@ p {
 .bg-learning-history {
     background: url('../images/learning-skills-bg.jpg') center no-repeat #bbbbbb;
     background-size: cover;
-    border-radius: 4px;
-    
+    border-radius: 4px;  
 }
 
 .bg-my-skills {
     background: url('../images/learning-skills-bg.jpg') center no-repeat #bbbbbb;
     background-size: cover;
-    border-radius: 4px;
-    
+    border-radius: 4px;    
 }
 
 
@@ -190,6 +188,13 @@ footer {
 .footer-section {
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+.footer-header {
+    padding-bottom: 18px;
+    font-weight: 500;
+    color: #696464;
+    font-size: 20px;
 }
 
 footer a {
@@ -208,11 +213,12 @@ footer i {
     color: #8F8F8F;
     margin-top: 0;
     margin-bottom: 2.2px;
-    transition: color .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 footer i:hover {
     color: #696464;
+    font-size: 36px;
 }
 
 /*----------------- Media Queries ---------------*/
