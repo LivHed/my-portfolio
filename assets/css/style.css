@@ -12,7 +12,7 @@ h1 {
 h2 {
     padding-top: 68px;
     font-size: 2.4em;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
 }
 
 p {
@@ -115,6 +115,10 @@ p {
     font-weight: 600;
 }
 
+.skills-h4 {
+    font-weight: 600;
+}
+
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
@@ -150,11 +154,6 @@ p {
     border-radius: 12px;
     content: '';
     background: #222831;
-}
-
-.history-heading {
-    color: #3f3f44;
-    margin-bottom: 50px;
 }
 
 .history-items {
