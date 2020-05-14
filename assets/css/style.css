@@ -16,8 +16,8 @@ h2 {
 }
 
 p {
-    margin-top: 16px;
-    margin-bottom: 16px;
+ /*   margin-top: 16px; */
+    margin-bottom: 18px;
     font-size: 1.2em;
 }
 
@@ -113,6 +113,11 @@ p {
 
 .timeline-h4 {
     font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.first-skills-h4 {
+    margin-top: 36px;
 }
 
 .skills-h4 {
