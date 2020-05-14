@@ -111,6 +111,10 @@ p {
     margin-bottom: 40px;
 }
 
+.timeline-h4 {
+    font-weight: 600;
+}
+
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
@@ -129,8 +133,8 @@ p {
     left: 2.5em;
     top: 3em;
     display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
     font-size: .8em;
     padding: 0;
     margin: 0;
