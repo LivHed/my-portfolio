@@ -35,6 +35,10 @@ p {
     font-weight: 600; 
 }
 
+.navbar button {
+   background-color: #f0f0f0;
+}
+
 /*---------- Header ---------------*/
 .header-container {
     background: url('../images/heroimage.jpg') center no-repeat #bbbbbb;
