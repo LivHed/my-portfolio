@@ -22,8 +22,17 @@ p {
 }
 
 /*------- Navbar ----------*/
-.nav-item {
+.nav-link {
     font-size: 1.1em;
+    font-weight: 500;
+    margin-left: 3px;
+    margin-right: 3px;
+    transition: all .3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #696464;
+    font-weight: 600; 
 }
 
 /*---------- Header ---------------*/
@@ -88,6 +97,10 @@ p {
 
 .project-text {
     font-size: 1.1em;
+}
+
+.card-footer {
+    padding: 10px;
 }
 
 .card-footer i {
