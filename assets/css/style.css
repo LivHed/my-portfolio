@@ -82,6 +82,12 @@ p {
 
 /*--------- About me section------------*/
 
+#about-me {
+ /*   background-color: #f1f3f4;  */
+    background-color: #f7f7f7;
+    padding-bottom: 12px;
+}
+
 #about-me strong {
     color: #7c0a02;
 }
@@ -137,9 +143,11 @@ p {
 #my-skills {
     margin-top: 40px;
     padding-bottom: 30px;
-    background: url('../images/learning-skills-bg.jpg') center no-repeat #bbbbbb;
-    background-size: cover;
-    border-radius: 4px;  
+ /*   background: url('../images/skills-background.jpg') center no-repeat #bbbbbb;
+    background-size: cover;  */
+ /*   border-radius: 4px; */
+ /*   background-color: #f1f3f4;  */
+      background-color: #f7f7f7;
 }
 
 .skills-learning-bg {
@@ -151,6 +159,7 @@ p {
 .timeline-h4 {
     font-weight: 600;
     margin-bottom: 4px;
+    color: #7c0a02;
 }
 
 .first-skills-h4 {
@@ -163,7 +172,14 @@ p {
 
 .skills-p {
     font-weight: 600;
-    color: #5f6769;
+ /*   color: #5f6769;  */
+    line-height: 36px;
+}
+
+.skills-p mark {
+    background-color: #cedcc3;
+    color: #7c0a02;
+    font-weight: 600;
 }
 
 .timeline-item {
@@ -226,7 +242,7 @@ p {
 footer {
     border-color: transparent;
     text-align: center;
-    background-color: #ededed;
+    background-color: #dfdfdf;
 }
 
 .footer-section {
