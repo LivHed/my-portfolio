@@ -86,8 +86,12 @@ p {
     color: #7c0a02;
 }
 
+#about-me p {
+    border-bottom: 1px solid #dee3e2;
+}
 
-/*---------- My skills section -------------*/
+
+/*---------- My Work section -------------*/
 .work-card {
     margin-top: 16px;
     transition: box-shadow .4s ease-in-out;
@@ -132,7 +136,16 @@ p {
 
 #my-skills {
     margin-top: 40px;
-    margin-bottom: 40px;
+    padding-bottom: 30px;
+    background: url('../images/learning-skills-bg.jpg') center no-repeat #bbbbbb;
+    background-size: cover;
+    border-radius: 4px;  
+}
+
+.skills-learning-bg {
+ /*   background: url('../images/learning-skills-bg.jpg') center no-repeat #bbbbbb;
+    background-size: cover;
+    border-radius: 4px; */
 }
 
 .timeline-h4 {
@@ -195,7 +208,7 @@ p {
 .history-items {
     margin-bottom: 30px;
 }
-
+/*
 .bg-learning-history {
     background: url('../images/learning-skills-bg.jpg') center no-repeat #bbbbbb;
     background-size: cover;
@@ -206,7 +219,7 @@ p {
     background: url('../images/learning-skills-bg.jpg') center no-repeat #bbbbbb;
     background-size: cover;
     border-radius: 4px;    
-}
+} */
 
 
 /*------------ Footer --------------*/
@@ -273,6 +286,11 @@ footer i:hover {
 
     #profileimage {
         left: 580px;
+    }
+
+    /* About me section */
+    #about-me p {
+    border-bottom: none;
     }
 
 
