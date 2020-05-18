@@ -25,7 +25,7 @@ p {
 /*------- Navbar ----------*/
 .nav-link {
     font-size: 1.1em;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 3px;
     margin-right: 3px;
     transition: all .4s ease-in-out;
@@ -33,7 +33,6 @@ p {
 
 .nav-link:hover {
     color: #696464;
-    font-weight: 600; 
 }
 
 .navbar button {
@@ -92,6 +91,10 @@ p {
     color: #7c0a02;
 }
 
+#junior-about {
+    background-color: #cedcc3;
+}
+
 #about-me p {
     border-bottom: 1px solid #dee3e2;
 }
@@ -131,11 +134,12 @@ p {
     font-size: 24px;
     width: 20px;
     height: 20px;
-    transition: color .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .card-footer i:hover {
     color: #696464;
+    font-size: 26px;
 }
 
 /*--------Learning history and Skills-------*/
@@ -265,7 +269,7 @@ footer i {
     border-radius: 50%;
     width: 42px;
     height: 42px;
-    font-size: 34px;
+    font-size: 38px;
     color: #8F8F8F;
     margin-top: 0;
     margin-bottom: 2.2px;
@@ -274,7 +278,7 @@ footer i {
 
 footer i:hover {
     color: #696464;
-    font-size: 38px;
+    font-size: 42px;
 }
 
 .copyright-text {
