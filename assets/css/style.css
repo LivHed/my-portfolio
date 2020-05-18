@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #fdfdfd;
     font-family: 'Muli', sans-serif;
