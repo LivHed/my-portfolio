@@ -145,8 +145,6 @@ p {
     padding-bottom: 30px;
  /*   background: url('../images/skills-background.jpg') center no-repeat #bbbbbb;
     background-size: cover;  */
- /*   border-radius: 4px; */
- /*   background-color: #f1f3f4;  */
       background-color: #f7f7f7;
 }
 
@@ -172,7 +170,6 @@ p {
 
 .skills-p {
     font-weight: 600;
- /*   color: #5f6769;  */
     line-height: 36px;
 }
 
@@ -193,7 +190,6 @@ p {
     padding: 0;
     margin: 0;
     font-weight: 600;
-    color: #5f6769;
 }
 
 .timeline-item::before {
@@ -254,7 +250,7 @@ footer {
     padding-bottom: 18px;
     font-weight: 500;
     color: #696464;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 footer a {
