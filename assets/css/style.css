@@ -80,9 +80,11 @@ p {
 }
 
 /*--------- About me section------------*/
-#about-me {
-   
+
+#about-me strong {
+    color: #7c0a02;
 }
+
 
 /*---------- My skills section -------------*/
 .work-card {
