@@ -120,7 +120,7 @@ p {
     color: #696464;
 }
 
-/*--------Learning history-------*/
+/*--------Learning history and Skills-------*/
 
 #my-skills {
     margin-top: 40px;
@@ -140,6 +140,11 @@ p {
     font-weight: 600;
 }
 
+.skills-p {
+    font-weight: 600;
+    color: #5f6769;
+}
+
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
@@ -150,6 +155,8 @@ p {
 .timeline-item p {
     padding: 0;
     margin: 0;
+    font-weight: 600;
+    color: #5f6769;
 }
 
 .timeline-item::before {
