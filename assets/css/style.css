@@ -27,7 +27,7 @@ p {
     font-weight: 500;
     margin-left: 3px;
     margin-right: 3px;
-    transition: all .3s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 .nav-link:hover {
@@ -212,7 +212,7 @@ p {
 footer {
     border-color: transparent;
     text-align: center;
-    background-color: #f8f9fa;
+    background-color: #ededed;
 }
 
 .footer-section {
@@ -248,7 +248,7 @@ footer i {
 
 footer i:hover {
     color: #696464;
-    font-size: 36px;
+    font-size: 38px;
 }
 
 .copyright-text {
