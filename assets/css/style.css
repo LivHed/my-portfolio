@@ -88,8 +88,10 @@ p {
 #about-me {
  /*   background-color: #f1f3f4;  */
  /*   background-color: #f7f7f7;  */
-    background-color: #f8f1e5;
+ /*   background-color: #f8f1e5;  */
+    background-color: #faf5ef;
     padding-bottom: 20px;
+    border-bottom: 1px solid #ececec;
 }
 
 #about-me strong {
@@ -110,6 +112,7 @@ p {
 #my-work {
     background-color: #f2f2f2;
     padding-bottom: 40px;
+    border-bottom: 1px solid #ececec;
 }
 
 .work-card {
@@ -158,7 +161,8 @@ p {
     padding-bottom: 30px;
  /*   background: url('../images/skills-background.jpg') center no-repeat #bbbbbb;
     background-size: cover;  */
-      background-color: #f7f7f7;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ececec;
       
 }
 
@@ -251,7 +255,8 @@ p {
 /*--------- Contact section ---------- */
 
 #contact-me {
-    background-color: #f8f1e5;
+/*    background-color: #f8f1e5;   */
+    background-color: #faf5ef;
 }
 
 .contact-form input {
