@@ -159,17 +159,8 @@ p {
 
 #my-skills {
     padding-bottom: 30px;
- /*   background: url('../images/skills-background.jpg') center no-repeat #bbbbbb;
-    background-size: cover;  */
- /*   background-color: #f7f7f7;  */
     background-color: #fcfcfc;
     border-bottom: 1px solid #ececec;
-}
-
-.skills-learning-bg {
- /*   background: url('../images/learning-skills-bg.jpg') center no-repeat #bbbbbb;
-    background-size: cover;
-    border-radius: 4px; */
 }
 
 .timeline-h4 {
@@ -238,18 +229,6 @@ p {
 .history-items {
     margin-bottom: 30px;
 }
-/*
-.bg-learning-history {
-    background: url('../images/learning-skills-bg.jpg') center no-repeat #bbbbbb;
-    background-size: cover;
-    border-radius: 4px;  
-}
-
-.bg-my-skills {
-    background: url('../images/learning-skills-bg.jpg') center no-repeat #bbbbbb;
-    background-size: cover;
-    border-radius: 4px;    
-} */
 
 
 /*--------- Contact section ---------- */
@@ -274,6 +253,8 @@ p {
 }
 
 .contact-form button {
+    background-color: #fcfcfc;
+    font-size: 1.1em;
     border-radius: 40px;
     letter-spacing: 1px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
