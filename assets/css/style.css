@@ -29,7 +29,8 @@ p {
 /*------- Navbar ----------*/
 .nav-link {
     font-size: 1.1em;
-    font-weight: 400;
+    font-weight: 500;
+    text-transform: uppercase;
     margin-left: 3px;
     margin-right: 3px;
     transition: all .4s ease-in-out;
@@ -153,6 +154,21 @@ p {
 
 .card-footer i:hover {
     color: #696464;
+}
+
+#work-paragraph {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+#work-paragraph i {
+    font-size: 1.3em;
+    color: #696464;
+    transition: color .3s ease-in-out;
+}
+
+#work-paragraph i:hover {
+    color: #7c0a02;
 }
 
 /*--------Learning history and Skills-------*/
