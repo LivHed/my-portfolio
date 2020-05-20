@@ -259,17 +259,29 @@ p {
     background-color: #faf5ef;
 }
 
+#connect-heading {
+    color: #7c0a02;
+}
+
 .contact-form input {
     border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .contact-form textarea {
     border-radius: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .contact-form button {
     border-radius: 40px;
     letter-spacing: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: background-color .3s ease-in-out;
+}
+
+.contact-form button:hover {
+    background-color: #7c0a02;
 }
 
 
