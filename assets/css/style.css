@@ -191,17 +191,19 @@ p {
 
 .skills-h4 {
     font-weight: 600;
+    margin-bottom: 14px;
 }
 
 .skills-p {
     font-weight: 600;
-    line-height: 36px;
+    line-height: 38px;
+    margin-bottom: 26px;
 }
 
 .skills-p mark {
     background-color: #cedcc3;
     color: #7c0a02;
-    font-weight: 600;
+    font-weight: 600; 
 }
 
 .timeline-item {
