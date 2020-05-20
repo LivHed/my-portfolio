@@ -29,7 +29,7 @@ p {
 /*------- Navbar ----------*/
 .nav-link {
     font-size: 1.1em;
-    font-weight: 600;
+    font-weight: 400;
     margin-left: 3px;
     margin-right: 3px;
     transition: all .4s ease-in-out;
@@ -291,7 +291,8 @@ footer {
     border-color: transparent;
     text-align: center;
  /*   background-color: #dfdfdf;  */
-    background-color: #d1d1d1;
+ /*   background-color: #d1d1d1;  */
+    background-color: #c1c1c1;
 }
 
 .footer-section {
@@ -319,14 +320,16 @@ footer i {
     width: 42px;
     height: 42px;
     font-size: 38px;
-    color: #8F8F8F;
+ /*   color: #8F8F8F;  */
+    color: #696464;
     margin-top: 0;
     margin-bottom: 2.2px;
-    transition: all .3s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 footer i:hover {
-    color: #696464;
+ /*   color: #696464;  */
+    color: #7c0a02;
     font-size: 44px;
 }
 
