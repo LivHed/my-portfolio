@@ -161,9 +161,9 @@ p {
     padding-bottom: 30px;
  /*   background: url('../images/skills-background.jpg') center no-repeat #bbbbbb;
     background-size: cover;  */
-    background-color: #f7f7f7;
+ /*   background-color: #f7f7f7;  */
+    background-color: #fcfcfc;
     border-bottom: 1px solid #ececec;
-      
 }
 
 .skills-learning-bg {
@@ -290,7 +290,8 @@ p {
 footer {
     border-color: transparent;
     text-align: center;
-    background-color: #dfdfdf;
+ /*   background-color: #dfdfdf;  */
+    background-color: #d1d1d1;
 }
 
 .footer-section {
@@ -326,7 +327,7 @@ footer i {
 
 footer i:hover {
     color: #696464;
-    font-size: 42px;
+    font-size: 44px;
 }
 
 .copyright-text {
