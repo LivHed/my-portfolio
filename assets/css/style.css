@@ -87,8 +87,9 @@ p {
 
 #about-me {
  /*   background-color: #f1f3f4;  */
-    background-color: #f7f7f7;
-    padding-bottom: 12px;
+ /*   background-color: #f7f7f7;  */
+    background-color: #f8f1e5;
+    padding-bottom: 20px;
 }
 
 #about-me strong {
@@ -105,6 +106,12 @@ p {
 
 
 /*---------- My Work section -------------*/
+
+#my-work {
+    background-color: #f2f2f2;
+    padding-bottom: 40px;
+}
+
 .work-card {
     margin-top: 16px;
     transition: box-shadow .4s ease-in-out;
@@ -148,11 +155,11 @@ p {
 /*--------Learning history and Skills-------*/
 
 #my-skills {
-    margin-top: 40px;
     padding-bottom: 30px;
  /*   background: url('../images/skills-background.jpg') center no-repeat #bbbbbb;
     background-size: cover;  */
       background-color: #f7f7f7;
+      
 }
 
 .skills-learning-bg {
@@ -239,6 +246,27 @@ p {
     background-size: cover;
     border-radius: 4px;    
 } */
+
+
+/*--------- Contact section ---------- */
+
+#contact-me {
+    background-color: #f8f1e5;
+}
+
+.contact-form input {
+    border-radius: 40px;
+}
+
+.contact-form textarea {
+    border-radius: 18px;
+}
+
+.contact-form button {
+    border-radius: 40px;
+    letter-spacing: 1px;
+}
+
 
 
 /*------------ Footer --------------*/
