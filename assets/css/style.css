@@ -157,20 +157,36 @@ p {
     color: #696464;
 }
 
-#work-paragraph {
+#github-paragraph {
     font-size: 1.4em;
     text-align: center;
 }
 
-#work-paragraph i {
+#github-paragraph i {
     font-size: 1.3em;
     color: #696464;
     transition: color .3s ease-in-out;
 }
 
-#work-paragraph i:hover {
+#github-paragraph i:hover {
     color: #7c0a02;
 }
+
+#resume-paragrapgh {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+#resume-paragrapgh i {
+    font-size: 1.2em;
+    color: #696464;
+    transition: color .3s ease-in-out;
+}
+
+#resume-paragrapgh i:hover {
+    color: #7c0a02;
+}
+
 
 /*--------Learning history and Skills-------*/
 
