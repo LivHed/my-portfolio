@@ -10,6 +10,7 @@ body {
 }
 
 /*--------- General styles ------------*/
+
 h1 {
     font-weight: 400;
     font-size: 3em;
@@ -22,12 +23,12 @@ h2 {
 }
 
 p {
- /*   margin-top: 16px; */
     margin-bottom: 18px;
     font-size: 1.2em;
 }
 
-/*------- Navbar ----------*/
+/*---------- Navbar ----------*/
+
 .nav-link {
     font-size: 1.1em;
     font-weight: 500;
@@ -45,7 +46,8 @@ p {
    background-color: #f0f0f0;
 }
 
-/*---------- Header ---------------*/
+/*---------- Header, hero area and profile image ------------*/
+
 .header-container {
     background: url('../images/heroimage.jpg') center no-repeat #bbbbbb;
     background-size: cover;
@@ -53,7 +55,6 @@ p {
     position: relative;
 }
 
- /*------ Header - Hero area and profile image-----*/
 .hero-text {
    color: #f9fcfb;
    padding-top: 90px;
@@ -82,7 +83,6 @@ p {
     position: absolute;
     top: 435px;
     left: 150px;
-    
 }
 
 /*--------- About me section------------*/
@@ -109,7 +109,7 @@ p {
 }
 
 
-/*---------- My Work section -------------*/
+/*------------ My Work section -------------*/
 
 #my-work {
     background-color: #f2f2f2;
@@ -305,11 +305,10 @@ p {
 
 
 /*------------ Footer --------------*/
+
 footer {
     border-color: transparent;
     text-align: center;
- /*   background-color: #dfdfdf;  */
- /*   background-color: #d1d1d1;  */
     background-color: #c1c1c1;
 }
 
@@ -338,7 +337,6 @@ footer i {
     width: 42px;
     height: 42px;
     font-size: 38px;
- /*   color: #8F8F8F;  */
     color: #696464;
     margin-top: 0;
     margin-bottom: 2.2px;
@@ -346,7 +344,6 @@ footer i {
 }
 
 footer i:hover {
- /*   color: #696464;  */
     color: #7c0a02;
     font-size: 44px;
 }
@@ -360,12 +357,12 @@ footer i:hover {
 /*----------------- Media Queries ---------------*/
 
 @media (min-width: 760px) {
-/* Tablet styles */
+/*--- Tablet styles ----*/
 
     /*----- General styles --------*/
 
 
-    /*--------- Header - Hero area and profile image----------*/
+    /*------- Header - Hero area and profile image-------*/
     .hero-text {
         padding-left: 72px;
     }
@@ -374,7 +371,7 @@ footer i:hover {
         left: 580px;
     }
 
-    /* About me section */
+    /*------- About me section -------*/
     #about-me p {
        border-bottom: none;
        font-size: 1.27em;
@@ -385,14 +382,14 @@ footer i:hover {
 
 
 @media (min-width: 1200px) {
-/*----- Desktop styles ---------*/
+/*----- Desktop styles -------*/
 
     /*------ General styles ----------*/
     h1 {
         font-size: 3.6em;
     }
 
-    /*----------- Header - Hero area and profile image---------*/
+    /*--------- Header - Hero area and profile image-------*/
     .hero-text {
         padding-left: 140px;
     }
