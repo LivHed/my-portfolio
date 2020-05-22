@@ -91,7 +91,8 @@ p {
  /*   background-color: #f1f3f4;  */
  /*   background-color: #f7f7f7;  */
  /*   background-color: #f8f1e5;  */
-    background-color: #faf5ef;
+ /*   background-color: #faf5ef; */
+    background-color: #e5e4cc;
     padding-bottom: 20px;
     border-bottom: 1px solid #ececec;
 }
@@ -270,7 +271,8 @@ p {
 
 #contact-me {
 /*    background-color: #f8f1e5;   */
-    background-color: #faf5ef;
+ /*   background-color: #faf5ef;   */
+    background-color: #e5e4cc;
 }
 
 #connect-heading {
