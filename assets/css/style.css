@@ -92,6 +92,7 @@ p {
  /*   background-color: #f7f7f7;  */
  /*   background-color: #f8f1e5;  */
  /*   background-color: #faf5ef; */
+  /* next best alternative color -- background-color: #bac7a7;  */
     background-color: #e5e4cc;
     padding-bottom: 20px;
     border-bottom: 1px solid #ececec;
@@ -272,6 +273,7 @@ p {
 #contact-me {
 /*    background-color: #f8f1e5;   */
  /*   background-color: #faf5ef;   */
+ /* next best alternative color -- background-color: #bac7a7;  */
     background-color: #e5e4cc;
 }
 
