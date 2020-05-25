@@ -8,6 +8,7 @@ body {
     font-family: 'Muli', sans-serif;
   /*  color: #444444; */
     color: #333333;
+    height: 100%;
 }
 
 /*--------- General styles ------------*/
@@ -182,6 +183,7 @@ p {
 #github-paragraph {
     font-size: 1.4em;
     text-align: center;
+    font-family: 'Carrois Gothic SC', sans-serif;
 }
 
 #github-paragraph i {
