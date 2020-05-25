@@ -53,6 +53,7 @@ p {
     background-size: cover;
     min-height: 600px;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .hero-text {
@@ -92,8 +93,10 @@ p {
  /*   background-color: #f7f7f7;  */
  /*   background-color: #f8f1e5;  */
  /*   background-color: #faf5ef; */
-  /* next best alternative color -- background-color: #bac7a7;  */
-    background-color: #e5e4cc;
+  /* next best alternative color */ /* background-color: #bac7a7; */
+ /*   background-color: #e5e4cc;  */
+ /*     background-color: #d2e1c8;  */
+      background-color: #e4eddb;
     padding-bottom: 20px;
     border-bottom: 1px solid #ececec;
 }
@@ -103,7 +106,9 @@ p {
 }
 
 #junior-about {
-    background-color: #cedcc3;
+  /*  background-color: #cedcc3;  */
+ /*  background-color: #e4eddb;  */
+    background-color: #f7f3ce;
 }
 
 #about-me p {
@@ -114,7 +119,8 @@ p {
 /*------------ My Work section -------------*/
 
 #my-work {
-    background-color: #f2f2f2;
+ /*   background-color: #f2f2f2;  */
+    background-color: #f1f2eb;
     padding-bottom: 40px;
     border-bottom: 1px solid #ececec;
 }
@@ -149,7 +155,7 @@ p {
 .card-footer i {
     color: #8F8F8F;
     border-radius: 50%;
-    font-size: 24px;
+    font-size: 1.7em;
     width: 20px;
     height: 20px;
     transition: color .3s ease-in-out;
@@ -273,8 +279,10 @@ p {
 #contact-me {
 /*    background-color: #f8f1e5;   */
  /*   background-color: #faf5ef;   */
- /* next best alternative color -- background-color: #bac7a7;  */
-    background-color: #e5e4cc;
+ /* next best alternative color */ /* background-color: #bac7a7;  */
+ /*   background-color: #e5e4cc;  */
+ /*    background-color: #d2e1c8;  */
+     background-color: #e4eddb;
 }
 
 #connect-heading {
@@ -315,6 +323,7 @@ p {
 #reset-btn:hover {
     font-weight: 700;
 }
+
 
 /*------------ Footer --------------*/
 
