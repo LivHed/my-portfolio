@@ -115,7 +115,28 @@ p {
 }
 
 #about-me p {
-    border-bottom: 1px solid #dee3e2;
+ /*   border-bottom: 1px solid #dee3e2;  */
+}
+
+#first-p {
+    border-bottom: 1px solid #c1c1c1; 
+}
+
+#resume-paragraph {
+    text-transform: uppercase;
+    font-weight: 300;
+    border-top: 1px solid #c1c1c1;
+    padding-top: 2.7px;
+}
+
+#resume-paragraph i {
+    font-size: 1.2em;
+    color: #696464;
+    transition: color .3s ease-in-out;
+}
+
+#resume-paragraph i:hover {
+    color: #7c0a02;
 }
 
 
@@ -193,21 +214,6 @@ p {
 }
 
 #github-paragraph i:hover {
-    color: #7c0a02;
-}
-
-#resume-paragrapgh {
-    font-size: 1.4em;
-    text-align: center;
-}
-
-#resume-paragrapgh i {
-    font-size: 1.2em;
-    color: #696464;
-    transition: color .3s ease-in-out;
-}
-
-#resume-paragrapgh i:hover {
     color: #7c0a02;
 }
 
@@ -363,9 +369,10 @@ footer {
 
 .footer-header {
     padding-bottom: 18px;
-    font-weight: 500;
+    font-weight: 300;
     color: #dadada;
     font-size: 1.4em;
+    font-family: 'Carrois Gothic SC', sans-serif;
 }
 
 footer a {
@@ -393,8 +400,10 @@ footer i:hover {
 }
 
 .copyright-text {
+    margin-top: 16px;
     margin-bottom: 0;
     font-size: 0.9em;
+    color: #aaaaaa;
 }
 
 
