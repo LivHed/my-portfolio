@@ -6,7 +6,8 @@ html {
 body {
     background-color: #fdfdfd;
     font-family: 'Muli', sans-serif;
-    color: #444444;
+  /*  color: #444444; */
+    color: #333333;
 }
 
 /*--------- General styles ------------*/
@@ -103,6 +104,7 @@ p {
 
 #about-me strong {
     color: #7c0a02;
+    font-size: 1.1em;
 }
 
 #junior-about {
@@ -144,8 +146,20 @@ p {
     border-bottom: 1px solid #ececec;
 }
 
+.card-title {
+    font-size: 1.4em;
+}
+
+.card-subtitle {
+     line-height: 22px;
+     font-size: 1.1em;
+     border-top: 1px solid lightgrey;
+ }
+
+
 .project-text {
-    font-size: 1.1em;
+    font-size: 1.2em;
+    border-top: 1px solid lightgrey;
 }
 
 .card-footer {
@@ -282,7 +296,14 @@ p {
  /* next best alternative color */ /* background-color: #bac7a7;  */
  /*   background-color: #e5e4cc;  */
  /*    background-color: #d2e1c8;  */
-     background-color: #e4eddb;
+ /*    background-color: #e4eddb;  */
+     background: url('../images/contact-bg.jpg') center no-repeat #e4eddb;
+     background-size: cover;
+}
+
+.form-bg {
+    background-color: #f1f2eb;
+    opacity: 0.95;
 }
 
 #connect-heading {
@@ -396,6 +417,14 @@ footer i:hover {
     #about-me p {
        border-bottom: none;
        font-size: 1.27em;
+    }
+
+    /*------- Contact section ---------*/
+    .form-bg {
+        margin-bottom: 26px;
+        margin-top: 26px;
+        border-radius: 18px;
+        border: 1px solid black;
     }
 
 
