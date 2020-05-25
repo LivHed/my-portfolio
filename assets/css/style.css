@@ -353,7 +353,7 @@ p {
 footer {
     border-color: transparent;
     text-align: center;
-    background-color: #c1c1c1;
+    background-color: #525252;
 }
 
 .footer-section {
@@ -364,7 +364,7 @@ footer {
 .footer-header {
     padding-bottom: 18px;
     font-weight: 500;
-    color: #696464;
+    color: #dadada;
     font-size: 1.4em;
 }
 
@@ -381,14 +381,14 @@ footer i {
     width: 42px;
     height: 42px;
     font-size: 38px;
-    color: #696464;
+    color: #dadada;
     margin-top: 0;
     margin-bottom: 2.2px;
     transition: all .4s ease-in-out;
 }
 
 footer i:hover {
-    color: #7c0a02;
+    color: #690802;
     font-size: 44px;
 }
 
@@ -423,8 +423,8 @@ footer i:hover {
 
     /*------- Contact section ---------*/
     .form-bg {
-        margin-bottom: 26px;
-        margin-top: 26px;
+        margin-bottom: 30px;
+        margin-top: 30px;
         border-radius: 18px;
         border: 1px solid black;
     }
