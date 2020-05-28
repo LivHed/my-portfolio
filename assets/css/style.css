@@ -315,22 +315,13 @@ p {
     font-size: 1.1em;
     border-radius: 40px;
     letter-spacing: 1px;
+    margin-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all .3s ease-in-out;
 }
 
 .contact-form button:hover {
     background-color: #7c0a02;
-}
-
-#reset-btn {
-    font-size: 0.8em;
-    font-weight: 400;
-    transition: .3s ease-in-out;
-}
-
-#reset-btn:hover {
-    font-weight: 700;
 }
 
 
