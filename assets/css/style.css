@@ -6,7 +6,6 @@ html {
 body {
     background-color: #fdfdfd;
     font-family: 'Muli', sans-serif;
-  /*  color: #444444; */
     color: #333333;
     height: 100%;
 }
@@ -46,7 +45,7 @@ p {
 
 .navbar button {
    background-color: #f0f0f0;
-}
+}  
 
 /*---------- Header, hero area and profile image ------------*/
 
@@ -91,14 +90,7 @@ p {
 /*--------- About me section------------*/
 
 #about-me {
- /*   background-color: #f1f3f4;  */
- /*   background-color: #f7f7f7;  */
- /*   background-color: #f8f1e5;  */
- /*   background-color: #faf5ef; */
-  /* next best alternative color */ /* background-color: #bac7a7; */
- /*   background-color: #e5e4cc;  */
- /*     background-color: #d2e1c8;  */
-      background-color: #e4eddb;
+    background-color: #e4eddb;
     padding-bottom: 20px;
     border-bottom: 1px solid #ececec;
 }
@@ -109,8 +101,6 @@ p {
 }
 
 #junior-about {
-  /*  background-color: #cedcc3;  */
- /*  background-color: #e4eddb;  */
     background-color: #f7f3ce;
 }
 
