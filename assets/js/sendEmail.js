@@ -13,6 +13,8 @@ function sendMail(contactForm) {
         function(response) {
             console.log("SUCCESS!", response.status, response.text);
             alert('Your email is sent!');
+
+            document.getElementById('myform').reset(); //// the form fields resets after the user click on send button.
         },
         function(error) {
             console.log("FAILED", error);
