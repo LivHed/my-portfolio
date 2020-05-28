@@ -50,7 +50,7 @@ p {
 /*---------- Header, hero area and profile image ------------*/
 
 .header-container {
-    background: url('../images/heroimage.jpg') center no-repeat #bbbbbb;
+    background: url('../images/background-hero.jpg') center no-repeat #bbbbbb;
     background-size: cover;
     min-height: 600px;
     position: relative;
@@ -66,7 +66,7 @@ p {
 .hero-text p {
     text-transform: uppercase;
     font-weight: 300;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .hero-text p span {
@@ -102,10 +102,6 @@ p {
 
 #junior-about {
     background-color: #f7f3ce;
-}
-
-#about-me p {
- /*   border-bottom: 1px solid #dee3e2;  */
 }
 
 #first-p {
@@ -289,13 +285,7 @@ p {
 /*--------- Contact section ---------- */
 
 #contact-me {
-/*    background-color: #f8f1e5;   */
- /*   background-color: #faf5ef;   */
- /* next best alternative color */ /* background-color: #bac7a7;  */
- /*   background-color: #e5e4cc;  */
- /*    background-color: #d2e1c8;  */
- /*    background-color: #e4eddb;  */
-     background: url('../images/contact-bg.jpg') center no-repeat #e4eddb;
+     background: url('../images/contact-form-bg.jpg') center no-repeat #e4eddb;
      background-size: cover;
 }
 
@@ -450,7 +440,7 @@ footer i:hover {
     }
 
     .hero-text p {
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
 
     #profileimage {
