@@ -324,6 +324,11 @@ p {
     background-color: #7c0a02;
 }
 
+#success-message {
+    color: green;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
 
 /*------------ Footer --------------*/
 
