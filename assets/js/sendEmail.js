@@ -12,9 +12,8 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS!", response.status, response.text);
-            alert('Your email is sent!');
-
-            document.getElementById('myform').reset(); //// the form fields resets after the user click on send button.
+            document.getElementById("success-message").innerHTML = "Your message has been sent!"; // Success message after message are sent.
+            document.getElementById('myform').reset(); // the form fields resets after the user click on send button.
         },
         function(error) {
             console.log("FAILED", error);
