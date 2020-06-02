@@ -90,7 +90,10 @@ p {
 /*--------- About me section------------*/
 
 #about-me {
-    background-color: #e4eddb;
+/*    background-color: #e4eddb;  */
+/*  background-color: #ddeedf; bg color to use if not the first one  */ 
+/*  background-color: #e5f3e3; */
+    background-color: #e6f1e5;   
     padding-bottom: 20px;
     border-bottom: 1px solid #ececec;
 }
@@ -130,7 +133,11 @@ p {
 
 #my-work {
  /*   background-color: #f2f2f2;  */
-    background-color: #f1f2eb;
+ /*   background-color: #f1f2eb;   */
+ /*   background-color: #f9faf7;   */
+ /*   background-color:#fcf8f3;  */
+     background-color:#f7f5f2; 
+ /*   background-color: #f1ede4;  */
     padding-bottom: 40px;
     border-bottom: 1px solid #ececec;
 }
