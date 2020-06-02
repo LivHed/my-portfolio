@@ -90,10 +90,10 @@ p {
 /*--------- About me section------------*/
 
 #about-me {
-/*    background-color: #e4eddb;  */
+    background-color: #e4eddb;  
 /*  background-color: #ddeedf; bg color to use if not the first one  */ 
 /*  background-color: #e5f3e3; */
-    background-color: #e6f1e5;   
+/*    background-color: #e6f1e5;   */
     padding-bottom: 20px;
     border-bottom: 1px solid #ececec;
 }
