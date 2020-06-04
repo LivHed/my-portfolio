@@ -152,7 +152,6 @@ p {
 }
 
 .card-image {
-  /*  background-size: cover;  */
     background-position: center center;
     width: 100%;
     height: 180px;
@@ -195,9 +194,10 @@ p {
 }
 
 #github-paragraph {
-    font-size: 1.4em;
+    font-size: 1.3em;
+    font-weight: 300;
     text-align: center;
-    font-family: 'Carrois Gothic SC', sans-serif;
+    text-transform: uppercase;
 }
 
 #github-paragraph i {
