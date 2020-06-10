@@ -194,7 +194,7 @@ p {
 }
 
 #github-paragraph {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 300;
     text-align: center;
     text-transform: uppercase;
@@ -411,6 +411,13 @@ footer i:hover {
     #about-me p {
        border-bottom: none;
        font-size: 1.27em;
+    }
+
+    /*--------- Work section ---------*/
+
+    #github-paragraph {
+        margin-top: 46px; 
+        font-size: 1.3em;
     }
 
     /*------- Contact section ---------*/
