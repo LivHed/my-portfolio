@@ -44,8 +44,12 @@ p {
 }
 
 .navbar button {
-   background-color: #f0f0f0;
+   background-color: #f0f0f0;  
 }  
+
+.navbar-toggler {
+    border-radius: .75rem;
+}
 
 /*---------- Header, hero area and profile image ------------*/
 
