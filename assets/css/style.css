@@ -5,8 +5,9 @@ html {
 
 body {
     background-color: #fdfdfd;
-    font-family: 'Muli', sans-serif;
     color: #333333;
+    font-family: 'Muli', sans-serif;
+    letter-spacing: 0.02em;
     height: 100%;
 }
 
@@ -368,7 +369,7 @@ footer {
 }
 
 footer a {
-    padding: 4px 16px 4px 16px;
+    padding: 4px 8px 4px 8px;
     background-color: transparent;
 }
 
@@ -437,6 +438,10 @@ footer i:hover {
         border: 1px solid black;
     }
 
+    /*------------ Footer ------------ */
+    footer a {
+    padding: 4px 16px 4px 16px;
+    }
 
 }
 
