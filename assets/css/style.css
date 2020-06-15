@@ -36,6 +36,7 @@ p {
     text-transform: uppercase;
     margin-left: 3px;
     margin-right: 3px;
+    letter-spacing: 0.04em;
     transition: all .4s ease-in-out;
 }
 
