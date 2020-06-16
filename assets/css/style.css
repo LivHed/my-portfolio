@@ -398,9 +398,9 @@ footer i:hover {
 
 /*----------------- Media Queries ---------------*/
 
-/*---- Extra added breakpoint to make the My work cards to display
-   in the center of the screen on smaller devices - because of a bug in Bootstrap 4 when
-   rendering the page in the Internet explorer browser ----*/
+/*---- Added extra breakpoint to make the My work cards display in the
+   center of the screen on smaller devices - because of a bug in Bootstrap 4 when
+   rendering the page in an Internet explorer browser ----*/
 @media (min-width: 576px) {
     .card-deck {
         width: 100%;
