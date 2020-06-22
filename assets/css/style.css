@@ -466,6 +466,7 @@ footer i:hover {
         padding-left: 140px;
     }
 
+    /* Type example borrowed from this codepen example https://codepen.io/Mrshcom/pen/uHEpv */
     @-webkit-keyframes typing { from { width: 0; } }
     @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
 
