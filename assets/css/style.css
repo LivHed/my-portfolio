@@ -473,11 +473,11 @@ footer i:hover {
     .hero-text h4 {
         font-size: 2.2em;
         border-right: .1em solid #f9fcfb;
-	    width: 18em; 
-	    width: 40.39ch;
+	    width: 30em; 
+        width: 38ch;
         white-space: nowrap;
 	    overflow: hidden;
-        -webkit-animation: typing 6s steps(21, end),
+        -webkit-animation: typing 6s steps(31, end),
 	    blink-caret .4s step-end infinite alternate;
     }
 
