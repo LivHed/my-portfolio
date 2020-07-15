@@ -49,8 +49,8 @@ p {
    background-color: #e8e4e1;
 }  
 
- /* Animated Navbar Icon */  
-
+/* Animated Navbar Icon, the example 'Hamburger menu icon animations' copied from this page: https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/ */  
+/* slightly modified for my needs. */
 .animated-icon {
     width: 30px;
     height: 20px;
